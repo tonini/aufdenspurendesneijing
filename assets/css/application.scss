@@ -1,0 +1,46 @@
+---
+---
+// Imports
+@import "variables";
+@import url("https://fonts.googleapis.com/css?family=Amatic+SC");
+
+// Bulma.io CSS Framework
+@import "bulma/utilities/_all";
+@import "bulma/base/_all";
+@import "bulma/elements/_all";
+@import "bulma/components/_all";
+@import "bulma/grid/_all";
+@import "bulma/layout/_all";
+
+// Font-Awesome
+@import "font-awesome/scss/font-awesome.scss";
+
+.hero.is-primary {
+    background-color: $primary;
+    color: #fff;
+}
+
+.hero {
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    background-color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.huang-di-nei-jing {
+  font-family: "Amatic SC", cursive;
+  letter-spacing: -2px;
+  font-size: 50px;
+  color: #eee;
+  text-shadow: 0px 0.5px 0.5px #333;
+}
